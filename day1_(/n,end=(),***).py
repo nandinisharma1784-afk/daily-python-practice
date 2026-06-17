@@ -12,7 +12,8 @@ for row in range(1, 4):         #outer loop (rows)
 
 
 
-q2for i in range(1,6):
+q2
+for i in range(1,6):
   for j in range(2,6):
     print((f"({i}^{j})"),end=(" "))
   print() 
