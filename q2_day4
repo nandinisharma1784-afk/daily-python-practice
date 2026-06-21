@@ -1,0 +1,10 @@
+import math
+def prime(x):
+    if x<=1:
+      return f"{x} is not prime"
+    for y in range(2,math.isqrt(x)+1):
+      if x%y==0:
+        return f"{x} is not prime"
+
+    return f"{x} is prime"
+print(prime(9))
